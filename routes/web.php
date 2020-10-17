@@ -19,15 +19,9 @@ Route::get('/', function () {
 
 
 
-Route::get('/home', function () {
-    return view('index');
+Route::get('/registration', function () {
+    return view('registration');
 });
-
-Route::get('/insert', function () {
-    return view('about');
-});
-Route::get('/update', function () {
-    return view('contact');
-});
+ 
 
  
