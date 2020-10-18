@@ -1,8 +1,3 @@
-
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -31,6 +26,21 @@
   </div>
 
   <div class="form-group">
+    <label for="username">User Name:</label>
+    <input type="text" class="form-control" placeholder="lavkush98" id="username" name="username">
+  </div>
+
+  <div class="form-group">
+    <label for="password">Password:</label>
+    <input type="password" class="form-control" placeholder="************" id="password" name="password">
+  </div>
+
+  <div class="form-group">
+    <label for="date_of_birth">Date of birth:</label>
+    <input type="date" class="form-control" placeholder="10/05/1998" id="date_of_birth" name="date_of_birth">
+  </div>
+
+  <div class="form-group">
     <label for="mobile">Mobile:</label>
     <input type="mobile" class="form-control" placeholder="9999-777-222" id="mobile" name="mobile">
   </div>
@@ -44,11 +54,6 @@
     <option>Senior HR Executive</option>
   </select>
 </div>
-
-  <div class="form-group">
-    <label for="text">Salary:</label>
-    <input type="salary" class="form-control" placeholder="50,000..." id="salary" name="salary">
-  </div>
 
   <div class="form-group form-check">
     <label class="form-check-label">
