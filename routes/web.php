@@ -19,9 +19,10 @@ Route::get('/', function () {
 
 
 
-Route::get('/registration', function () {
-    return view('registration');
-});
+ 
+
+Route::get('registration','Crud\RegistrationController@index');
+Route::post('/save','Crud\RegistrationController@get');
  
 
  
