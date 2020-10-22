@@ -21,6 +21,10 @@ class RegistrationController extends Controller
         $designation=$request->input('designation');
 
         $data = Registration::get($name,$email,$username,$password,$date_of_birth,$mobile,$designation);
-      
+       
+    }
+    ///////////////
+    public function store(){
+        ////code
     }
 }
